@@ -68,12 +68,12 @@ int main()
 	int nums[] = { 1, 2, 3, 4, 5, 6, 7 };
 	int k = 3;
 	int numsSize = sizeof(nums) / sizeof(nums[0]);
-	//for (int i = 0; i < numsSize; i++)
-	//{
-	//	printf("%d ", nums[i]);
-	//}
-	//printf("\n");
-	//rotate1(nums, numsSize, k);
+	for (int i = 0; i < numsSize; i++)
+	{
+		printf("%d ", nums[i]);
+	}
+	printf("\n");
+	rotate1(nums, numsSize, k);
 	for (int i = 0; i < numsSize; i++)
 	{
 		printf("%d ", nums[i]);
