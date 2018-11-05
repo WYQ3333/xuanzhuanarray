@@ -26,9 +26,9 @@ void rotate(int* nums, int numsSize, int k) {
 	{
 		int tmp = 0;
 		int j = numsSize-1;
+		tmp = nums[j];
 		while (j > 0)
 		{
-			tmp = nums[j];
 			nums[j] = nums[j - 1];
 			j--;
 		}
